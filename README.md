@@ -1,6 +1,9 @@
 # Frontend Mentor - Results summary solution
+
 ## Screenshot
+
 ![my screenshot](../figures/my_screenshot.png)
+
 ## Table of contents
 
 - [Links](#links)
@@ -53,6 +56,10 @@ const scoreArr = []
 button.classList.add('button')
 summaryContainer.appendChild(button).innerHTML = 'Continue'
 
+// The code creates an empty 'view' string and iterates over the 'data' array, generating the HTML content for each 'item' and appending it to the 'view' string using string concatenation. Finally, after the loop, the entire 'view' string is set as the 'innerHTML' of the 'summaryContent' element. This means that the entire HTML content is built in memory before being added to the DOM. This reduces the number of DOM modifications
+
+// TODO: Add each result to the DOM
+let view = ''
 data.forEach((item) => {
   scoreArr.push(item.score)
   const div = `
@@ -67,9 +74,14 @@ data.forEach((item) => {
       </div>
     </div>
     `
-  summaryContent.innerHTML += div
+  view += div
 })
 
+summaryContent.innerHTML += view
+// TODO: End of adding each result to the DOM
+
+// TODO: Calculate the average score depending on the length of the array
+// Add (+) all the scores and divide (/) the total by the number of scores
 const total = scoreArr.reduce((acc, curr) => acc + curr, 0) / scoreArr.length
 testScore.innerHTML = Math.round(total)
 ```
