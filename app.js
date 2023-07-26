@@ -15,7 +15,7 @@ function init() {
     const div = `
     <div class="${item.category.toLocaleLowerCase()} summary__item ">
       <div class="${item.category.toLocaleLowerCase()}__description summary__description">
-        <img src="./assets/images/icon-${item.category}.svg" alt="${
+        <img src="${item.icon}" alt="${
       item.category
     } icon" />
         <h3>${item.category}</h3>
