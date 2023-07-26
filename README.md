@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-![my screenshot](../figures/my_screenshot.png)
+![desktop-preview](https://github.com/alibeniaminali/Frontend-mentor-summary/assets/94930059/f968eed0-df0e-4fec-a173-09b5812d9d8d)
 
 ## Table of contents
 
