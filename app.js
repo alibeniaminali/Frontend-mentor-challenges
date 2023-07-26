@@ -30,7 +30,7 @@ function init() {
   })
 
   // console.log(scoreArr.length)
-  const total = scoreArr.reduce((acc, curr) => acc + curr, 0) / 4
+  const total = scoreArr.reduce((acc, curr) => acc + curr, 0) / scoreArr.length
   // console.log(total)
   testScore.innerHTML = Math.round(total)
   // console.log(testScore.innerHTML)
