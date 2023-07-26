@@ -190,9 +190,13 @@
   cursor: pointer;
 }
 
-.button:hover {
+button:active {
   background: #222d44f5;
-  box-shadow: 0px 0px 0px 2px var(--orangey-yellow) inset;
+  background: linear-gradient(
+    to bottom,
+    var(--lightslateblue),
+    var(--lightroyalblue)
+  );
 }
 
 .summary__scores span:first-child {
