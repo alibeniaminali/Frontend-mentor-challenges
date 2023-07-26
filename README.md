@@ -1,24 +1,24 @@
 # Frontend Mentor - Results summary solution
-
+## Screenshot
+![my screenshot](../figures/my_screenshot.png)
 ## Table of contents
 
 - [Links](#links)
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
 
+## Overview
+
+**To do this challenge, you need an understanding of HTML, CSS. To practice JavaScript and DOM manipulation I've added additional app.js file to dynamically render some of the elements and also to calculate the average score depending on the values inside of the data.json file.**
+
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/results-summary-component-html-css-javascript-ufztj0eo0-)
 - Live Site URL: [Deployed on GitHub pages](https://alibeniaminali.github.io/Frontend-mentor-summary/)
-
-## Overview
-
-**To do this challenge, you need an understanding of HTML, CSS. To practice JavaScript and DOM manipulation I've added additional app.js file to dynamically render some of the elements and also to calculate the average score depending on the values inside of the data.json file.**
 
 ### The challenge
 
