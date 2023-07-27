@@ -135,7 +135,8 @@
 /* Mobile first styles end: */
 
 /* Desktop styles start: */
-@media screen and (min-width: 600px) {
+
+@media only screen and (min-device-height: 360px) and (min-device-width: 760px) and (orientation: landscape) {
   body {
     display: flex;
     align-items: center;
