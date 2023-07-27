@@ -135,7 +135,7 @@
 /* Mobile first styles end: */
 
 /* Desktop styles start: */
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 600px) {
   body {
     display: flex;
     align-items: center;
@@ -242,4 +242,9 @@ button:active {
 
 .visual__description h3 {
   color: var(--violetblue);
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
 }
