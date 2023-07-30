@@ -1,4 +1,4 @@
-import data from './data.json' assert { type: 'json' }
+import data from './data.js'
 
 function init() {
   const summaryContent = document.querySelector('.summary__content')
