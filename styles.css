@@ -191,11 +191,11 @@ a {
   letter-spacing: 1px;
   border: none;
   font-size: var(--font-size);
-  margin-top: 15px;
+  margin-top: 10px;
   cursor: pointer;
 }
 
-button:active {
+button:hover {
   background: #222d44f5;
   background: linear-gradient(
     to bottom,
